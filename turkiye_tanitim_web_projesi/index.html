@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Türkiye Tanıtımı</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+     <div class="üstTaraf">
+    <h1>Türkiye'ye Hoş Geldiniz!</h1>
+    <div>
+    <img src="images/cay.png" alt="Çay" class="img-circle" />
+     <img src="images/nazar_boncugu.svg" alt="Nazar Boncuğu" class="img-circle" />
+    <img src="images/simit.png" alt="Simit" class="img-circle" />
+      </div>
+      
+</div>
+  </header>
+  <main>
+
+ 
+  <section class="kutu">
+    <h2>Türkiye Hakkında:</h2>
+    <p>Türkiye, Asya ile Avrupa kıtaları arasında köprü konumunda yer alan, 
+    zengin tarihi ve kültürel mirasıyla öne çıkan bir ülkedir...</p>
+    <img src="images/türkiyem.jpg" alt="Türkiye" class="full-width" />
+  </section>
+
+ 
+  <section class="kutu">
+    <h3>Popüler Bölgeler</h3>
+    <div class="bolgeler">
+      <ul>
+        <li><a href="akdeniz.html">Akdeniz</a></li>
+        <li><a href="ege.html">Ege</a></li>
+        <li><a href="marmara.html">Marmara</a></li>
+        <li><a href="karadeniz.html">Karadeniz</a></li>
+      </ul>
+    </div>
+  </section>
+
+ 
+  <section class="kutu">
+    <h3>Bölgeye Göre Şehirleri Gör</h3>
+    <label for="bolgeSec">Bir bölge seçin:</label>
+    <select id="bolgeSec">
+      <option value="">-- Seçiniz --</option>
+      <option value="akdeniz">Akdeniz</option>
+      <option value="ege">Ege</option>
+      <option value="marmara">Marmara</option>
+      <option value="karadeniz">Karadeniz</option>
+    </select>
+    <div id="sehirSonuc" style="margin-top: 20px;"></div>
+  </section>
+
+  
+  <section class="kutu">
+    <h3>Türkiye Haritası</h3>
+    <p>Türkiye haritasına buradan erişebilirsiniz:</p>
+   <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12727.335316497414!2d30.69394451179265!3d36.884080418658075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c390d6f6db33c9%3A0xa7e3de4e6b118eeb!2sAntalya!5e0!3m2!1str!2str!4v1622997321873!5m2!1str!2str"
+  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+</main>
+
+
+  <footer>
+    <button onclick="scrollToTop()" id="topBtn" title="Yukarı Çık">↑</button>
+    <img src="images/cini2.jpg" alt="Çini" class="img-circle">
+    <img src="images/cini.jpg" alt="Çİni" class="img-circle">
+    <img src="images/cini3.jpg" alt="Çİni" class="img-circle">
+    <p>© 2025 Türkiye Tanıtım Projesi</p>
+  </footer>
+</body>
+</html>

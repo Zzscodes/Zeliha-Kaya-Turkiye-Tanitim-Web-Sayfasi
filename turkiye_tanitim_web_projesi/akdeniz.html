@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akdeniz Bölgesi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="üstTaraf">
+    <h1>Akdeniz Bölgesi</h1>
+    <div class="resim">
+      <img src="images/Narenciye.png" alt="Narenciye" class="img-circle" />
+      <img src="images/kızKalesi.png" alt="Kızkalesi" class="img-circle" />
+      <img src="images/kaplumbağa.png" alt="Kaplumbağa" class="img-circle" />
+      </div>
+
+      <div class="anasayfa">
+          <a href="index.html">Anasayfa</a>
+        </div>
+    </div>
+    
+  </header>
+  <main>
+    <section>
+      <p>Türkiye'nin güneyinde yer alan Akdeniz Bölgesi, sıcak iklimi, 
+        uzun sahilleri ve verimli tarım arazileriyle dikkat çeker. 
+        Antalya gibi turizm merkezleri, yaz aylarında yoğun ziyaretçi alır. 
+        Aynı zamanda narenciye üretimi açısından da oldukça önemlidir.</p>
+        
+      <div class="sehirler">
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Adana</h2>
+          <p class="hidden">Akdeniz Bölgesi’nin en büyük şehirlerinden biri olan Adana, 
+            verimli Çukurova Ovası sayesinde tarımda önemli bir yere sahiptir. 
+            Özellikle pamuk üretimi ve kebabı ile tanınır. Seyhan Nehri üzerindeki Taşköprü, 
+            tarihi yapıları ve kültürel mirasıyla şehre değer katar. Sıcak iklimi ve hareketli 
+            şehir yaşamıyla dikkat çeker.</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Antalya</h2>
+          <p class="hidden">Türkiye’nin turizm başkenti olarak bilinen Antalya,
+            doğal güzellikleri, uzun sahilleri ve tarihi kalıntılarıyla öne çıkar. 
+            Kaleiçi, Düden Şelalesi ve antik kentler (Perge, Aspendos, Side) 
+            gibi birçok önemli turistik noktaya sahiptir. Ilıman iklimi ve modern otelleriyle
+             her yıl milyonlarca yerli ve yabancı turisti ağırlar..</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Mersin</h2>
+          <p class="hidden">Akdeniz kıyısında yer alan Mersin, hem liman şehri olması hem de narenciye üretimiyle ekonomik açıdan önemlidir.
+             Toros Dağları’nın eteklerinde yer alan şehir, tarihi yapıları (Kızkalesi, Soli Pompeiopolis) ve
+              sahil boyunca uzanan modern yaşam alanlarıyla dikkat çeker. Ilıman iklimi sayesinde dört mevsim yaşamaya elverişli bir kenttir..</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+   
+    <button onclick="scrollToTop()" id="topBtn" title="Yukarı Çık">↑</button>
+    <p>© 2025 Türkiye Tanıtım Projesi</p>
+  </footer>
+</body>
+</html>

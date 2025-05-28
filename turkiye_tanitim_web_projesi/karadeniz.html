@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karadeniz Bölgesi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="üstTaraf">
+    <h1>Karadeniz Bölgesi</h1>
+    <div>
+      <img src="images/karadenizEvleri.jpg" alt="Fındık" class="img-circle" />
+      <img src="images/fındık.png" alt="Karadeniz Evleri" class="img-circle" />
+      <img src="images/karadenizCayı.png" alt="Karadeniz Çayı" class="img-circle" />
+
+      <div class="anasayfa">
+          <a href="index.html">Anasayfa</a>
+        </div>
+
+    </div>
+
+  </div>
+  </header>
+  <main>
+    <section>
+      <p>Kuzeyde Karadeniz’e kıyısı olan bu bölge, 
+        yemyeşil ormanları, dağları ve bol yağışlı iklimiyle bilinir.
+         Fındık üretimi, çay tarımı ve yaylalarıyla öne çıkar. 
+         Karadeniz insanı neşeli, çalışkan ve kendine özgü kültürüyle tanınır.</p>
+      <div class="sehirler">
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Trabzon</h2>
+          <p class="hidden">Karadeniz’in doğusunda yer alan Trabzon, 
+            tarihi ve doğal güzellikleriyle öne çıkan bir şehirdir.
+             Tarihi Sümela Manastırı, Uzungöl gibi doğa harikaları ve köklü geçmişiyle dikkat çeker. 
+             Aynı zamanda Trabzonspor futbol takımıyla da sporseverlerin tanıdığı bir merkezdir. 
+             Karadeniz kültürünün canlı şekilde yaşandığı şehir, lezzetli mutfağı ve sıcakkanlı insanlarıyla tanınır.</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Rize</h2>
+          <p class="hidden">Türkiye’nin en çok yağış alan ili olan Rize,
+             yemyeşil doğası, çay tarlaları ve yaylalarıyla ünlüdür. 
+             Çay üretiminin merkezi olan şehirde, çayın her aşaması kültürel bir değer taşır. 
+             Kaçkar Dağları ve Ayder Yaylası gibi doğal zenginlikleri, doğaseverler için cazip rotalardır. 
+             Rize, Karadeniz’in özgün müzikleri, yemekleri ve gelenekleriyle de dikkat çeker.</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Ordu</h2>
+          <p class="hidden">Karadeniz kıyısında yer alan Ordu,
+             hem doğal güzellikleri hem de fındık üretimiyle tanınan bir ildir.
+              Boztepe’den izlenen manzarası, sahil boyunca uzanan yürüyüş yolları ve 
+              temiz plajlarıyla huzurlu bir atmosfere sahiptir. 
+              Türkiye’nin en çok fındık üreten illerinden biri olan Ordu,
+               aynı zamanda kültürel ve tarihi dokusunu da koruyan bir Karadeniz şehridir.</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <button onclick="scrollToTop()" id="topBtn" title="Yukarı Çık">↑</button>
+    <p>© 2025 Türkiye Tanıtım Projesi</p>
+  </footer>
+</body>
+</html>

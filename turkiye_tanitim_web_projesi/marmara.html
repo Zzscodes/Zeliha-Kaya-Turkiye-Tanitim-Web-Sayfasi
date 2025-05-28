@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marmara Bölgesi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="üstTaraf"> </div>
+    <h1>Marmara Bölgesi </h1>
+    <div>
+      <img src="images/güreş.png" alt="Kırkpınar güreşçileri" class="img-circle" />
+      <img src="images/uludag.jpg" alt="Uludağ" class="img-circle" />
+      <img src="images/Ayasofya.jpg" alt="Ayasofya" class="img-circle" />
+    </div>
+
+     <div class="anasayfa">
+          <a href="index.html">Anasayfa</a>
+        </div>
+    
+</div>
+  </header>
+  <main>
+    <section>
+      <p>Türkiye'nin kuzeybatısında yer alan Marmara Bölgesi,
+         ülkenin sanayi, ticaret ve ulaşım açısından en gelişmiş bölgesidir. 
+         İstanbul gibi tarihi ve kültürel zenginliklere sahip büyük şehirleri barındırır. 
+         Ayrıca, Trakya toprakları Avrupa kıtasında yer aldığı için Marmara, 
+         Türkiye’nin Avrupa ile bağlantısını sağlayan önemli bir kapıdır..</p>
+      <div class="sehirler">
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 İstanbul</h2>
+          <p class="hidden">Türkiye’nin en kalabalık ve en tarihi şehri olan İstanbul, 
+            Asya ve Avrupa kıtalarını birleştiren eşsiz konumuyla dikkat çeker. 
+            Ayasofya, Topkapı Sarayı, Boğaziçi Köprüsü ve Galata Kulesi gibi simgeleriyle hem Osmanlı 
+            hem Bizans mirasını taşır. Kültürel çeşitliliği, hareketli yaşamı ve tarihi yapılarıyla adeta bir açık hava müzesidir..</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Bursa</h2>
+          <p class="hidden">Osmanlı Devleti’nin ilk başkenti olan Bursa, 
+            tarihî ve doğal güzellikleriyle öne çıkar. Uludağ gibi önemli bir kayak merkezi ve kaplıcaları 
+            ile kış turizminin gözdesidir. Aynı zamanda İskender kebabı, Yeşil Türbe ve Ulu Camii ile tanınır.
+            Gelişmiş sanayisiyle Marmara Bölgesi’nin önemli kentlerinden biridir..</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Edirne</h2>
+          <p class="hidden">Osmanlı’nın ikinci başkenti olan Edirne, mimarisi ve kültürüyle zengin bir geçmişe sahiptir.
+             Mimar Sinan’ın ustalık eseri Selimiye Camii, kente damgasını vurur.
+              Her yıl düzenlenen Kırkpınar Yağlı Güreşleri ve tarihi köprüleriyle Edirne,
+            geleneksel ve tarihî değerleri yaşatan bir sınır şehridir.</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <button onclick="scrollToTop()" id="topBtn" title="Yukarı Çık">↑</button>
+    <p>© 2025 Türkiye Tanıtım Projesi</p>
+  </footer>
+</body>
+</html>

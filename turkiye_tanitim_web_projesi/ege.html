@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ege Bölgesi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="üstTaraf">
+      <h1>Ege Bölgesi</h1>
+      <div class="resim">
+        <img src="images/zeytin.jpg" alt="Zeytin" class="img-circle" />
+        <img src="images/alaçatı.jpg" alt="Alaçatı" class="img-circle" />
+        <img src="images/efesAntikKenti.jpg" alt="Efes Antik Kenti " class="img-circle" />
+      </div>
+
+        <div class="anasayfa">
+          <a href="index.html">Anasayfa</a>
+        </div>
+      
+    </div>
+    
+  </header>
+  <main>
+    <section>
+      <p>Batısında Ege Denizi ile çevrili olan bu bölge,
+         güzel kıyı şehirleri, zeytinlikleri ve tarihi antik kentleriyle tanınır. 
+         İzmir, bölgenin en büyük ve en önemli şehridir. Sıcak iklimi, 
+         denizi ve doğal güzellikleriyle hem yerli hem yabancı turistlerin ilgisini çeker.</p>
+      <div class="sehirler">
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 İzmir</h2>
+          <p class="hidden">İzmir Ege'nin incisi olarak bilinir.
+            Ege Bölgesi’nin en büyük ve modern şehirlerinden biri olan İzmir,
+             hem tarihi hem de çağdaş yaşam tarzıyla dikkat çeker. 
+             Tarihi Kemeraltı Çarşısı, Saat Kulesi ve Alsancak gibi semtleriyle kültürel zenginlik sunar. 
+             Aynı zamanda fuarları, festivalleri ve sahil boyunca uzanan yaşam alanlarıyla canlı ve enerjik bir şehirdir.</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Muğla</h2>
+          <p class="hidden">Türkiye’nin en popüler turistik şehirlerinden biri olan Muğla, 
+            Bodrum, Marmaris, Fethiye ve Datça gibi ilçeleriyle ünlüdür. 
+            Eşsiz koyları, antik kentleri ve doğal güzellikleriyle yaz aylarında milyonlarca turisti 
+            ağırlar. Mavi yolculuk ve deniz turizmi Muğla’nın en önemli simgelerindendir..</p>
+        </article>
+
+        <article>
+          <h2 onclick="toggleInfo(this)">📍 Aydın</h2>
+          <p class="hidden">Zeytinlikleri, incir bahçeleri ve antik kentleriyle öne çıkan Aydın,
+             hem tarım hem de tarih açısından önemli bir Ege şehridir. 
+             Efes Antik Kenti ve Milet gibi tarihi yapılar Aydın’da yer alır. 
+             Aynı zamanda Nazilli ve Kuşadası gibi ilçeleriyle hem ekonomik hem de turistik açıdan gelişmiştir..</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <button onclick="scrollToTop()" id="topBtn" title="Yukarı Çık">↑</button>
+    <p>© 2025 Türkiye Tanıtım Projesi</p>
+  </footer>
+</body>
+</html>
